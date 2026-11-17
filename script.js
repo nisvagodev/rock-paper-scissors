@@ -1,5 +1,3 @@
-// Primero tengo que hacer un numero random, del cual este mismo se va a utilizar para
-// escoger piedra papel o tijeras con un condicional
 function getComputerChoice() {
   let randomNumber = Math.floor(Math.random() * 3) + 1;
   if (randomNumber === 1) {
@@ -11,7 +9,6 @@ function getComputerChoice() {
   }
 }
 
-// Luego tengo que hacer una función que reciba la decisión del jugador humano y la retorne
 function getHumanChoice() {
   let humanChoice = prompt("Rock, paper or scissors?");
   if (humanChoice === "rock") {
