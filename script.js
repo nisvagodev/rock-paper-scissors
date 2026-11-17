@@ -11,13 +11,7 @@ function getComputerChoice() {
 
 function getHumanChoice() {
   let humanChoice = prompt("Rock, paper or scissors?");
-  if (humanChoice === "rock") {
-    return "rock";
-  } else if (humanChoice === "paper") {
-    return "paper";
-  } else if (humanChoice === "scissors") {
-    return "scissors";
-  }
+  return humanChoice;
 }
 
 let humanScore = 0;
