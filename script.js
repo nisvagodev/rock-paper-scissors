@@ -18,7 +18,7 @@ function getHumanChoice() {
     return "rock";
   } else if (humanChoice === "paper") {
     return "paper";
-  } else {
+  } else if (humanChoice === "scissors") {
     return "scissors";
   }
 }
