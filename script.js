@@ -11,4 +11,14 @@ function getComputerChoice() {
   }
 }
 
-console.log(getComputerChoice());
+// Luego tengo que hacer una función que reciba la decisión del jugador humano y la retorne
+function getHumanChoice() {
+  let humanChoice = prompt("Rock, paper or scissors?");
+  if (humanChoice === "rock") {
+    return "rock";
+  } else if (humanChoice === "paper") {
+    return "paper";
+  } else {
+    return "scissors";
+  }
+}
